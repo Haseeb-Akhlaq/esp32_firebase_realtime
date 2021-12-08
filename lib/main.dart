@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'dashboard.dart';
+import 'screens/dashboard.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'ESP32 Temp & humid App',
       theme: ThemeData(
         primarySwatch: Colors.teal,
+        fontFamily: 'pop',
       ),
       home: Dashboard(),
       debugShowCheckedModeBanner: false,
